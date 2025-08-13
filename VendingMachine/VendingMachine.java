@@ -6,14 +6,14 @@ public class VendingMachine implements State{
     public int coin,valid=-1;
     HashMap<String,Integer> mpp=new HashMap<>();
     VendingMachine() {
-        mpp.put("pepsi", Coin.five.getValue());
-        mpp.put("coke", Coin.ten.getValue());
-        mpp.put("sprite", Coin.fifteen.getValue());
+        mpp.put(Item.PEPSI.getValue(), Coin.five.getValue());
+        mpp.put(Item.COKE.getValue(), Coin.ten.getValue());
+        mpp.put(Item.SPRITE.getValue(), Coin.fifteen.getValue());
     }
 
     @Override
     public void showMenu() {
-        for(Map.Entry<String,Integer> entry: mpp.entrySet()) {
+        for(Map.Entry<String,Integer> entry : mpp.entrySet()) {
             System.out.println(entry.getKey()+" : "+entry.getValue());
         }
     }
@@ -27,7 +27,6 @@ public class VendingMachine implements State{
         }
         else {
             this.valid=0;
-            System.out.println("Insert valid coin");
         }
     }
 
