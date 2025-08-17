@@ -9,19 +9,19 @@ public class Main {
             return 0;
         }
         if(balance.get(ind)==0) {
-            return 1+dfs(ind+1,balance);
+            return dfs(ind+1,balance);
         }
         int currentValue=balance.get(ind);
         int mn=Integer.MAX_VALUE;
         for(int i=ind+1;i<balance.size();i++) {
             int nextValue=balance.get(i);
-            if(nextValue+currentValue==0) {
-                return 0;
-            }
             if(currentValue*nextValue<0) {
                 balance.set(i,currentValue+nextValue);
                 mn=Math.min(mn,1+dfs(ind+1,balance));
                 balance.set(i,nextValue);
+                if(nextValue+currentValue==0) {
+                    break;
+                }
             }
         }
         return mn;
