@@ -5,6 +5,17 @@ public class Student {
     public String name;
     public String rollNumber;
 
+    public List<String> studentsList;
+
+    public List<String> getStudentsList() {
+        return studentsList;
+    }
+
+    public void setStudentsList(List<String> studentsList) {
+        this.studentsList = studentsList;
+    }
+
+
     public Student(StudentBuilder studentBuilder) {
     }
 

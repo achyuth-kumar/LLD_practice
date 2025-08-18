@@ -1,7 +1,10 @@
+import java.util.List;
+
 public abstract class StudentBuilder {
     public int id;
     public String name;
     public String rollNumber;
+    public List<String> subjects;
 
     public StudentBuilder setName(String name) {
         this.name = name;
@@ -17,12 +20,13 @@ public abstract class StudentBuilder {
         this.rollNumber = rollNumber;
         return this;
     }
+    abstract public StudentBuilder setSubjects();
 
     public Student build() {
         return new Student(this);
     }
     public String toString() {
-        return this.id+" : "+this.name+" : "+this.rollNumber;
+        return this.id+" : "+this.name+" : "+this.rollNumber+" : "+this.subjects;
     }
 
 
