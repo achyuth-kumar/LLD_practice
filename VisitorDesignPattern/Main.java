@@ -2,9 +2,7 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        Random random=new Random();
-        System.out.println(random.nextInt(5));
-        /*IVisit visitor=new VisitImpl();
+        IVisit visitor=new VisitImpl();
         HotelRoom singleRoom=new SingleRoom();
         if(singleRoom.available()) {
             visitor.visit("Single room");
@@ -21,6 +19,6 @@ public class Main {
         }
         else {
             System.out.println("Deluxe room not available");
-        }*/
+        }
     }
 }
