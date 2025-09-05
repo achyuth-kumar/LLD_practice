@@ -1,14 +1,21 @@
-public class PlayerTwo extends Players{
-    public int pos;
+public class PlayerTwo implements Players{
+
+    public int position[][];
+
     public String name;
-    public PlayerTwo(int pos, String name) {
-        super(pos, name);
+    public PlayerTwo(int[][] position, String name) {
+        this.position=position;
+        this.name=name;
     }
-    public int getPos() {
-        return pos;
+    public int[][] getPosition() {
+        return this.position;
     }
 
-    public void setPos(int pos) {
-        this.pos = pos;
+    public void setPosition(int[][] position) {
+        this.position = position;
+    }
+
+    public String getName() {
+        return name;
     }
 }

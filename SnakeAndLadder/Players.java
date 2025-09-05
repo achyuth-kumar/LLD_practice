@@ -1,8 +1,5 @@
-public class Players {
-    public int pos;
-    public String name;
-    public Players(int pos,String name) {
-        this.pos=pos;
-        this.name=name;
-    }
+public interface Players {
+    public int position[][] = new int[5][5];
+    public String name="";
+
 }
