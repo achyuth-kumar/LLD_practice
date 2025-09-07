@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Abstract-shapefactory8" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AdapterDesignPAttern2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AdapterDesignPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AdapterDesignPattern1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Book" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Book2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Book3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BookMyShow" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BridgeDesignPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BridgeDesignPattern1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BuilderDesignPAttern3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BuilderDesignPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BuilderDesignPattern1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BuilderDesignPattern2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Calculator" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Calculator_CompositeDesignPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Calculator_CompositeDesignPattern2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Calculator_compositeDesignPattern1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ChainResponsibility_ATM" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CommanDesignPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CommandDesignPattern1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CommandDesignPattern2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CompisiteDesignPattern1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CompositeDesignPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CompositeDesignPattern2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Cricbuzz" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Escallator" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FacadeDesignPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IteratorDesignPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IteratorDesignPattern1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MeetingScheduler" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MementoDesignPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MyHashMap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MyHashMap1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MyHashMap2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MyHashMap3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MyHashMap4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MyHashMap5" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/NullObjectDesignPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ObjectPoolDesignPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OnlineAuctionDesignPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/OnlineAuctionDesignPattern1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ParkingLot" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ProxyDesignPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ProxyDesignPattern1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ShapeFactory1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ShapeFactory2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ShapeFactory9" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SingleTon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SnakeAndLadder" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SplitWiseSimplify" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/TemplateDesignPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/TicTacToe" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/URLShortner" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/VendingMachine" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/VendingMachine1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/VisitorDesignPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WordProcessorDesign" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WordProcessorDesign1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/adapter" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/adapter3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/builderPattern2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/decorator" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/notify" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/notify1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/notify2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/notify3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/notify4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/notify5" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/notify6" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/notify7" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/notify8" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/shapeFactory3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/shapefactory4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/shapefactory5" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/shapefactory6" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/shapefactory7" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vehicle" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/whastappDisappearingMessage" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/whatsappDisappearingMessage" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

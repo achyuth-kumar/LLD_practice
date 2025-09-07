@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="56a39e59-adb5-418d-b133-7027d69bc6a4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ElevatorSystems.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AminOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DownSide.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DownSide.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ElevatorSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ElevatorSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpSide.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpSide.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ElevatorSystems/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ElevatorSystems/.idea/ElevatorSystems.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ElevatorSystems/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ElevatorSystems/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ElevatorSystems/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ElevatorSystems/AminOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ElevatorSystems/DownSide.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ElevatorSystems/ElevatorSystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ElevatorSystems/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ElevatorSystems/UpSide.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ElevatorSystems/User.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="32Lvply4w7oMb79c149fNe6TeVV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/achyuth/Desktop/LLD_practice"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="56a39e59-adb5-418d-b133-7027d69bc6a4" name="Changes" comment="" />
+      <created>1757212851791</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757212851791</updated>
+    </task>
+    <servers />
+  </component>
+</project>
