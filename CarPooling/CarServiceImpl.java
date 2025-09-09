@@ -48,7 +48,7 @@ public class CarServiceImpl implements Car{
     @Override
     public void Exit(int customerId) {
         if(!this.engineOn) {
-            if (this.carPosition==customerRides.get(customerId).get(1)) {
+            if (customerRides.containsKey(customerId) && this.carPosition==customerRides.get(customerId).get(1)) {
                 customerRides.remove(customerId);
                 seatAvailability.put(customerId, true);
             }
@@ -61,7 +61,10 @@ public class CarServiceImpl implements Car{
 
     @Override
     public int Cost(int customerId) {
-        return (customerRides.get(customerId).get(1)-customerRides.get(customerId).get(0))*40;
+        if(customerRides.containsKey(customerId)) {
+            return (customerRides.get(customerId).get(1) - customerRides.get(customerId).get(0)) * 40;
+        }
+        return 0;
     }
 
 

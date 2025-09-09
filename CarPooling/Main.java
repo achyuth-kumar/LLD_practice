@@ -5,7 +5,8 @@ public class Main {
         Driver driver=new Driver(car);
 
         driver.startCar();
-        customer.BookRide(2,7);
+        customer.BookRide(2,5);
+//        customer.BookRide(2,30);
         driver.accelerateCar();
         driver.stopCar();
         customer.exit();
