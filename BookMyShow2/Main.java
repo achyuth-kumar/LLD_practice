@@ -3,6 +3,7 @@ public class Main {
         Customer customer=new Customer(1,"Achyuth");
         Book book=new Book();
         book.ProcessBooking(customer.getId(),0,10,0);
+        book.CheckPaymentStatus(200);
         Customer customer2=new Customer(2,"Kumar");
         book.ProcessBooking(customer2.getId(),1,10,0);
 
