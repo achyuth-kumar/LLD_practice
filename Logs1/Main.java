@@ -1,10 +1,13 @@
 public class Main {
     public static void main(String [] args) {
-        Logger errorLogger=new ErrorLoggerImpl();
+        Logger logger=new Logger();
+        Log errorLogger=logger.GetLogs(LogType.ERROR);
         errorLogger.LogMessage(LogType.ERROR);
-        Logger debugLogger=new DebugLoggerImpl();
+
+        Log debugLogger=logger.GetLogs(LogType.DEBUG);
         debugLogger.LogMessage(LogType.DEBUG);
-        Logger infoLogger=new InfoLoggerImpl();
+
+        Log infoLogger=logger.GetLogs(LogType.INFO);
         infoLogger.LogMessage(LogType.INFO);
     
     }

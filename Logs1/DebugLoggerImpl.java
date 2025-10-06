@@ -1,6 +1,6 @@
-public class DebugLoggerImpl extends Logger {
+public class DebugLoggerImpl implements Log {
     @Override
     public void LogMessage(LogType logtype) {
-        super.LogMessage(logtype);
+        System.out.println(logtype.DEBUG+" debug logs enabled");
     }
 }

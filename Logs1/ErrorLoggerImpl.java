@@ -1,6 +1,6 @@
-public class ErrorLoggerImpl extends Logger{
+public class ErrorLoggerImpl implements Log{
     @Override
     public void LogMessage(LogType logType) {
-        super.LogMessage(logType);
+        System.out.println(logType.ERROR+" logs enabled");
     }
 }

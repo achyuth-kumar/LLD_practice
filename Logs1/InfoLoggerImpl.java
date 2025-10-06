@@ -1,6 +1,6 @@
-public class InfoLoggerImpl extends Logger{
+public class InfoLoggerImpl implements Log{
     @Override
     public void LogMessage(LogType logType) {
-        super.LogMessage(logType);
+        System.out.println(logType.INFO+" logs enabled");
     }
 }
