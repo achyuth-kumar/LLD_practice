@@ -15,7 +15,7 @@ public class Main {
 
         lfuCache.insertKey(2, 20);
         
-        lfuCache.insertKey(3, 30); 
+        lfuCache.insertKey(3, 30);  
         lfuCache.insertKey(3, 35);
         System.out.println(lfuCache.getValue());
         lfuCache.displayCache();
