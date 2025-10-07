@@ -16,13 +16,13 @@ public class ATMMachineServiceImpl implements Operations {
     @Override
     public void ProcessTransaction() {
         if(hundredTransactionHandlerImpl instanceof HundredTransactionHandlerImpl) {
-            System.out.println("$Hundred handler invoked");
+            hundredTransactionHandlerImpl.ProcessTransaction();
         }
         else if(fiveHundredTransactionHandlerImpl instanceof FiveHundredTransactionHandlerImpl) {
-            System.out.println("Five Hundre handler invoked");
+            fiveHundredTransactionHandlerImpl.ProcessTransaction();
         }
         else if(thousandTransactionHandler instanceof ThousandTransactionHandler) {
-            System.out.println("Thousand handler invoked");
+            thousandTransactionHandler.ProcessTransaction();
         }
     }
     

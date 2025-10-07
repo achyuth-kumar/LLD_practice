@@ -1,11 +1,8 @@
-public class FiveHundredTransactionHandlerImpl extends ATMMachineServiceImpl {
+public class FiveHundredTransactionHandlerImpl {
 
-    FiveHundredTransactionHandlerImpl(FiveHundredTransactionHandlerImpl fiveHundredTransactionHandlerImpl) {
-        super(fiveHundredTransactionHandlerImpl);
-    }
-
+    
     public void ProcessTransaction() {
-        super.ProcessTransaction();
+        System.out.println("Five-hundred hander invoked");
     }
 
 }

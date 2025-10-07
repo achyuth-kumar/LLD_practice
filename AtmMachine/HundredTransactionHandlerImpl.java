@@ -1,11 +1,9 @@
-public class HundredTransactionHandlerImpl extends ATMMachineServiceImpl {
+public class HundredTransactionHandlerImpl {
 
-    HundredTransactionHandlerImpl(HundredTransactionHandlerImpl hundredTransactionHandlerImpl) {
-        super(hundredTransactionHandlerImpl);
-    }
+    
 
     public void ProcessTransaction() {
-        super.ProcessTransaction();
+        System.out.println("Hundred handler invoked");
     }
 
 }

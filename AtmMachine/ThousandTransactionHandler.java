@@ -1,11 +1,9 @@
-public class ThousandTransactionHandler extends ATMMachineServiceImpl {
+public class ThousandTransactionHandler {
 
-    ThousandTransactionHandler(ThousandTransactionHandler thousandTransactionHandler) {
-        super(thousandTransactionHandler);
-    }
+    
 
     public void ProcessTransaction() {
-        super.ProcessTransaction();
+        System.out.println("Thousand handler invoked");
     }
 
 }
