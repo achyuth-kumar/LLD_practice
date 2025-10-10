@@ -1,5 +1,12 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class ObservableImpl implements Observable{
-    
+    List<NotificationServiceImpl> notifications=new ArrayList<>();
+    ObservableImpl() {
+        notifications.add(new EmailNotificationServiceImpl());
+        notifications.add(new MessageNotificationServiceImpl());
+    }
     @Override
     public void add() {
         System.out.println("Item added to cart");
@@ -11,9 +18,11 @@ public class ObservableImpl implements Observable{
 
     @Override
     public void notifyMe() {
-        NotificationServiceImpl emailEmailNotificationServiceImpl=new EmailNotificationServiceImpl();
-        emailEmailNotificationServiceImpl.update("email");
-        NotificationServiceImpl messageNotificationServiceImpl=new MessageNotificationServiceImpl();
-        messageNotificationServiceImpl.update("message");
+        for(NotificationServiceImpl o : notifications) {
+            if(o instanceof EmailNotificationServiceImpl)
+                o.update("Email");
+            else
+                o.update("Message");
+        }
     }
 }
