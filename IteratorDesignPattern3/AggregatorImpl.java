@@ -5,6 +5,6 @@ public class AggregatorImpl implements Aggregator {
 
     @Override
     public BookIterator createAggregator(List<Book> books) {
-        return new BookIterator(books);
+        return new BookIterator(books);   
     }
 }
