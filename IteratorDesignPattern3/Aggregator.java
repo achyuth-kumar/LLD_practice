@@ -1,3 +1,5 @@
+import java.util.List;
+
 public interface Aggregator {
-    public void createAggregator();
+    public BookIterator createAggregator(List<Book> books);
 }
