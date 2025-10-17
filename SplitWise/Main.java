@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Main {
     public static int dfs(int ind,List<Integer> balance) {
-        if(balance.size()==0 || ind>=balance.size()) {
+        if (balance.size() == 0 || ind >= balance.size()) {
             return 0;
         } 
         if(balance.get(ind)==0) {
