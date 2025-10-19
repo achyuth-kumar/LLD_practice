@@ -26,12 +26,17 @@ public class Main {
 //
 //        System.out.println("LFU cache get : "+LFUCache.get());
         SnapCache cache=new SnapCache();
-        cache.put(1,0,10);
-        cache.put(1,1,20);
-//        cache.put(1,2,30);
-//        cache.put(1,3,40);
+        cache.SetValue(0,10);
+        cache.SetValue(0,20);
 
-        cache.get(1,1);
+
+        cache.SetValue(1,100);
+        cache.SetValue(1,200);
+        cache.SetValue(1,300);
+        cache.SetValue(1,400);
+//0 -> 10
+//1 -> 10 20
+        cache.GetValue(0,1);
 
     }
 }
