@@ -14,10 +14,13 @@ public class BookIteratorImpl implements Iterator{
 
     @Override
     public Book next() {
-        if(this.hasNext()) {
+        /*if(this.hasNext()) {
             Book book=books.get(ind);
             ind+=1;
             return book;
+        }*/
+        if(this.hasNext()) {
+            return books.get(ind++);
         }
         return null;
     }
