@@ -9,6 +9,8 @@ public class Main {
         user.ProcessRequest("WWW.WYNK.COM");
         user.ProcessRequest("WWW.WYNK.COM");
 
+        user.ProcessRequest("WWW.SPOTIFY.COM");
+
     }
 }
 
