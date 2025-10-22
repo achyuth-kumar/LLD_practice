@@ -12,7 +12,6 @@ public class VersionControlImpl implements VersionControl{
             List<Pair<Integer, List<Integer>>> existing=cache.get(key);
             Pair<Integer, List<Integer>> existing_pair = existing.getLast();
             Pair<Integer, List<Integer>> NewPair = new Pair<Integer, List<Integer>>();
-
             NewPair.first = existing_pair.first+1;
             List<Integer> list=new ArrayList<>(existing_pair.second);
             list.add(Value);
