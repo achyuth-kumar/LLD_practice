@@ -27,6 +27,7 @@ public class ElevatorImpl implements Elevator{
     public void CheckIn() {
         if(this.doorOpened) {
             if(this.ValidateSpace()) {
+                lift.clear();
                 lift.put(this.floor, this.People_Count + 1);
                 this.People_Count = lift.get(this.floor);
             }
@@ -42,6 +43,7 @@ public class ElevatorImpl implements Elevator{
     @Override
     public void CheckOut() {
         if(this.doorOpened) {
+            lift.clear();
             lift.put(this.floor, this.People_Count-1);
             this.People_Count =lift.get(this.floor);
         }

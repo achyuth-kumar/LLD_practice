@@ -27,9 +27,9 @@ public class Main {
             elevator.CheckIn();
             elevator.DisplayElevatorMetrics();
 
-            elevator.CheckIn();
-            elevator.CheckIn();
-
+            elevator.Downward();
+            elevator.CheckOut();
+            elevator.DisplayElevatorMetrics();
         }
         else {
             System.out.println("Max capacity have been reached");
