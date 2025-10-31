@@ -40,7 +40,7 @@ public class Game {
             StartX=random.nextInt(m);
             StartY=random.nextInt(n);
             CurrentPosition=new Pair<Integer, Integer>(StartX,StartY);
-            if(Turn) {
+            if(Turn) {    
                 ProcessTurn(CurrentPosition,playerOne);
                 Turn=!Turn;
             }
