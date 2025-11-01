@@ -1,0 +1,17 @@
+import java.util.List;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.atomic.AtomicLong;
+
+public class RoundRobin {
+    List<String> servers;
+    AtomicInteger indexes;
+    RoundRobin(List<String> servers) {
+        this.servers=servers;
+        indexes=new AtomicInteger(-1);
+    }
+    public String GetNextServer() {
+        Integer index=indexes.incrementAndGet()%servers.size();
+        return servers.get(index);
+    }
+}
+
