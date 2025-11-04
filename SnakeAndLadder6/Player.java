@@ -4,6 +4,15 @@ public class Player {
 
     public Integer id;
     public String name;
+
+    public Pair<Integer, Integer> getCurrentIndex() {
+        return CurrentIndex;
+    }
+
+    public void setCurrentIndex(Pair<Integer, Integer> currentIndex) {
+        CurrentIndex = currentIndex;
+    }
+
     public Pair<Integer,Integer> CurrentIndex;
 
     public Player(Integer id, String name) {
@@ -28,13 +37,6 @@ public class Player {
         this.name = name;
     }
 
-    public Pair<Integer, Integer> getCurrentIndex() {
-        return CurrentIndex;
-    }
-
-    public void setCurrentIndex(Pair<Integer, Integer> currentIndex) {
-        CurrentIndex = currentIndex;
-    }
 
 
 }

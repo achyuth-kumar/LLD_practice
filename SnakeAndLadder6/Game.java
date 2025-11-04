@@ -2,7 +2,7 @@ import Pair.Pair;
 
 import java.util.HashMap;
 import java.util.Random;
-
+import java.util.*;
 public class Game {
     Integer m=3,n=3;
     Integer [][] board=new Integer[m][n];
@@ -13,7 +13,7 @@ public class Game {
     Game(Player playerOne,Player playerTwo) {
         this.playerOne=playerOne;
         this.playerTwo=playerTwo;
-        CurrentIndex=new Pair<Integer, Integer>(0,0);
+        CurrentIndex=new Pair<Integer,Integer>(0,0);
         snakes.put(new Pair<Integer, Integer>(2,2),new Pair<Integer, Integer>(1,1));
         snakes.put(new Pair<Integer, Integer>(0,2),new Pair<Integer, Integer>(1,2));
     }

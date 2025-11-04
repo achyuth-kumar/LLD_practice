@@ -1,9 +1,9 @@
 package Pair;
 
-public class Pair<I extends Number, I1 extends Number> {
+public class Pair<T, T1> {
+    public Pair(T1 i, T1 i1) {
+    }
     public Pair() {
 
-    }
-    public Pair(I1 i, I1 i1) {
     }
 }
