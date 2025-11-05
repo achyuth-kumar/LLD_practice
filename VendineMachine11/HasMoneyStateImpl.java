@@ -1,0 +1,22 @@
+public class HasMoneyStateImpl implements VendingMachine{
+    @Override
+    public void InsertCoin(Coin coin) {
+        System.out.println(coin.getValue()+" : Coin have been inserted");
+    }
+
+    @Override
+    public void ChooseProduct(Item item) {
+        System.out.println("Vending machine is in the Has Money state");
+    }
+
+    @Override
+    public boolean ValidateProduct(Coin coing, Item item) {
+        System.out.println("Vending machine is in the Has Money state");
+        return false;
+    }
+
+    @Override
+    public void DispenseItem(Item item) {
+        System.out.println("Vending machine is in the Has Money state");
+    }
+}
