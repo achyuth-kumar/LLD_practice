@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9788e515-56bb-492a-8016-db66d167f592" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Colour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Piece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PieceType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotificationServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotificationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObservableImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObservableImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Alteryx/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Alteryx/.idea/Alteryx.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Alteryx/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Alteryx/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Alteryx/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Alteryx/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Alteryx/NotificationServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Alteryx/Observable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Alteryx/ObservableImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Alteryx/Observer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Alteryx/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Alteryx/UserType.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="356N9HoWCYVuxHQGOMdPBwkDK8B" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9788e515-56bb-492a-8016-db66d167f592" name="Changes" comment="" />
+      <created>1762426410016</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762426410016</updated>
+    </task>
+    <servers />
+  </component>
+</project>
