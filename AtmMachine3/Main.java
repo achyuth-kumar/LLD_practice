@@ -9,6 +9,7 @@ public class Main {
         atmService.debit(1,150);
         atmService.viewBalance(1);
 
+        operations= operationFactory.getOperation(100);
         atmService.credit(2,100,operations);
         atmService.debit(2,150);
         atmService.viewBalance(2);
