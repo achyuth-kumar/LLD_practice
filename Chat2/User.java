@@ -1,24 +1,29 @@
-import java.util.List;
+public class User {
+    public Integer id;
+    public String name;
 
-public class User implements Chat {
-
-    @Override
-    public void sendMessage() {
-        
+    public Integer getId() {
+        return id;
     }
 
-    @Override
-    public void deleteMessage() {
-
+    public void setId(Integer id) {
+        this.id = id;
     }
 
-    @Override
-    public void pinMessage() {
-
+    public String getName() {
+        return name;
     }
 
-    @Override
-    public List<String> getMessages() {
-        return List.of();
+    public void setName(String name) {
+        this.name = name;
     }
+
+
+
+    public User(Integer id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+
 }
