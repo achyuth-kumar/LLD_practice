@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
-
-public class Bike {
+public class Bike implements EngineVehicle{
+    @Override
+    public boolean hasEngine() {
+        return true;
+    }
 }
