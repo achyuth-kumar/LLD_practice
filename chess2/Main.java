@@ -1,0 +1,8 @@
+public class Main {
+    public static void main(String [] args) {
+        Player playerOne=new Player(1,"Achyuth",Colour.WHITE);
+        Player playerTwo=new Player(2,"Kumar",Colour.BLACK);
+        Game chess=new GameServiceImpl(playerOne,playerTwo);
+        chess.startGame(playerOne,1,1,2,2);
+    }
+}
