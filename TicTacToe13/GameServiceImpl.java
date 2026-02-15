@@ -19,7 +19,7 @@ public class GameServiceImpl implements Game{
         String Winner=new String();
         boolean turn=true;
         Random random=new Random();
-        while(true) {
+        while(true) { 
             Integer startX=random.nextInt(m);
             Integer startY=random.nextInt(n);
             board[startX][startY]=turn?playerOne.getPiece(): playerTwo.getPiece();
