@@ -50,9 +50,8 @@ public class ObservableServiceImpl implements Observable{
 
     @Override
     public void reorderItems(String itemName, Double beforePosition, Double nextPosition) {
-        Double newPosition=beforePosition+((beforePosition+nextPosition)/2);
+        Double newPosition=(beforePosition+nextPosition)/2;
         cache.put(newPosition,itemName);
 
     }
-
 }
