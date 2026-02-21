@@ -1,0 +1,28 @@
+public class Pawn implements Piece{
+
+    private Colour colour;
+    public Pawn(Colour colour) {
+        this.colour = colour;
+    }
+
+    @Override
+    public boolean validateMove(Cell [][]board,Cell from,Cell to) {
+        Integer rowDiff=Math.abs(from.getRow()-to.getRow());
+        Integer colDiff=Math.abs(from.getCol()-to.getCol());
+        if(this.colour==Colour.White) {
+            return (from.getRow()==1 && rowDiff==2 && colDiff==0) ||
+                    (rowDiff==1 && colDiff==0) ||
+                    (rowDiff==1 && colDiff==1 && board[to.getRow()][to.getCol()].getPiece()!=null);
+        }
+        else {
+            return (from.getRow()==6 && rowDiff==2 && colDiff==0) ||
+                    (rowDiff==1 && colDiff==0) ||
+                    (rowDiff==1 && colDiff==1 && board[to.getRow()][to.getCol()].getPiece()!=null);
+        }
+    }
+
+    @Override
+    public Colour getColour() {
+        return this.colour;
+    }
+}
