@@ -7,7 +7,7 @@ public class PlayListServiceImpl implements PlayList{
     AtomicLong positionGenerator;
     public PlayListServiceImpl() {
         this.cache = new ConcurrentSkipListMap<>();
-        this.positionGenerator = new AtomicLong(0L);
+        this.positionGenerator = new AtomicLong(-1L);
     }
     @Override
     public void addSong(Song song) {
