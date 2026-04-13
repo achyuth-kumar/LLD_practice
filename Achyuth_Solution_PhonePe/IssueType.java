@@ -1,0 +1,3 @@
+public enum IssueType {
+    PAYMENT,REFUND,TECHNICAL,ACCOUNT, DELIVERY ,OTHER
+}
