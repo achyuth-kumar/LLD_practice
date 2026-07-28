@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5b050a3f-2935-41b0-9bd3-1d0a5651c823" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATM/FiveHundredHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATM/HundredHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATM/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATM/Operations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ATM/TwoThousandHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interview/Expense.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interview/Group.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interview/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interview/PAYMENT_STATUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interview/Payment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interview/Split.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interview/SplitWise.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interview/SplitWiseServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interview/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IteratorDesignPattern7/Aggregator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IteratorDesignPattern7/AggregatorServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IteratorDesignPattern7/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IteratorDesignPattern7/BookIteratorServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IteratorDesignPattern7/Iterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IteratorDesignPattern7/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/.idea/Chess38.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/Bishop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/Bishop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/Cell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/Cell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/Colour.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/Colour.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/GameServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/GameServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/King.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/King.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/Knight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/Knight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/Pawn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/Pawn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/Piece.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/Piece.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/Queen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/Queen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/Rook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/Rook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/out/production/Chess38/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/out/production/Chess38/.idea/Chess38.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/out/production/Chess38/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/out/production/Chess38/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/out/production/Chess38/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/out/production/Chess38/Bishop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/out/production/Chess38/Cell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/out/production/Chess38/Colour.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/out/production/Chess38/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/out/production/Chess38/GameServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/out/production/Chess38/King.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/out/production/Chess38/Knight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/out/production/Chess38/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/out/production/Chess38/Pawn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/out/production/Chess38/Piece.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/out/production/Chess38/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/out/production/Chess38/Queen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder (2)/out/production/Chess38/Rook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/.idea/Notify26.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/EmailNotificationServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/EmailNotificationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/MessageNotificationServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/MessageNotificationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/NotificationServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/NotificationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/Observable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/Observable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/ObservableServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/ObservableServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/Observer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/out/production/Notify26/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/out/production/Notify26/.idea/Notify26.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/out/production/Notify26/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/out/production/Notify26/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/out/production/Notify26/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/out/production/Notify26/EmailNotificationServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/out/production/Notify26/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/out/production/Notify26/MessageNotificationServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/out/production/Notify26/NotificationServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/out/production/Notify26/Observable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/out/production/Notify26/ObservableServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New folder/out/production/Notify26/Observer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Samanvay_Submission.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe5/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe5/.idea/TicTacToe5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe5/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe5/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe5/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe5/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe5/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe5/GameServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe5/GameServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe5/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe5/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe5/Piece.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe5/Piece.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe5/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe5/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe5/out/production/TicTacToe5/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe5/out/production/TicTacToe5/.idea/TicTacToe5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe5/out/production/TicTacToe5/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe5/out/production/TicTacToe5/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe5/out/production/TicTacToe5/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe5/out/production/TicTacToe5/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe5/out/production/TicTacToe5/GameServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe5/out/production/TicTacToe5/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe5/out/production/TicTacToe5/Piece.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TicTacToe5/out/production/TicTacToe5/Player.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="3H89ehDbNrZRufNsQLRFiTPLHcU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b050a3f-2935-41b0-9bd3-1d0a5651c823" name="Changes" comment="" />
+      <created>1785238926710</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1785238926710</updated>
+    </task>
+    <servers />
+  </component>
+</project>
