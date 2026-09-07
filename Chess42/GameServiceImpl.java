@@ -19,8 +19,8 @@ public class GameServiceImpl implements Game{
     @Override
     public void startGame(Piece piece, Integer startX, Integer startY, Integer endX, Integer endY) {
         for(int j=0;j<n;j++) {
-            board[1][j].setPiece(new Rook(Colour.white));
-            board[6][j].setPiece(new Rook(Colour.black));
+            board[1][j].setPiece(new Pawn(Colour.white));
+            board[6][j].setPiece(new Pawn(Colour.black));
         }
         board[0][0].setPiece(new Rook(Colour.white));
         board[0][1].setPiece(new Knight(Colour.white));
