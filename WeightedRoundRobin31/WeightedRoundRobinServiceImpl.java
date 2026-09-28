@@ -12,7 +12,7 @@ public class WeightedRoundRobinServiceImpl implements WeightedRoundRobin{
     }
     @Override
     public String getNextServer() {
-        while(true) { 
+        while(true) {
             currentIndex=(currentIndex+1)%servers.size();
             if(currentIndex==0) {
                 currentWeight--;
