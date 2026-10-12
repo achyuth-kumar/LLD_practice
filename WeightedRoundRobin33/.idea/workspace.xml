@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf24f0cd-196b-4dc5-999c-91fb3e73699f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeightedRoundRobin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeightedRoundRobinServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Order Management System.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Uber-System Design.pdf" beforeDir="false" />
     </list>
